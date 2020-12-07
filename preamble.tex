@@ -32,6 +32,12 @@
 
 \usepackage{titlesec}
 
+% make new bigcdot letter for title
+\makeatletter
+\newcommand*\bigcdot{\mathpalette\bigcdot@{.8}}
+\newcommand*\bigcdot@[2]{\mathbin{\vcenter{\hbox{\scalebox{#2}{$\m@th#1\bullet$}}}}}
+\makeatother
+
 % No paragraph indent
 \setlength{\parindent}{0cm}
 % Bigger paragraph skips
@@ -83,7 +89,9 @@
   \fancyfoot[R]{Page \textbf{\thepage} of \textbf{\pageref{LastPage}}}
 }
 
-\title{\vspace{-5ex}RoboCupJunior Soccer Rules 2021\vspace{-5ex}}
+\title{\Large RoboCupJunior Soccer Simulation Rules \vspace{2ex} \\
+\large $\bigcdot$ Simulation Kick-Off Tournament in Jan 2021 $\bigcdot$ \vspace{-10ex}}
+
 \date{\vspace{-2ex}}
 
 \definecolor{color-1}{rgb}{1,1,1}
@@ -113,13 +121,13 @@
 &
 \resizebox{0.50\textwidth}{!}{
 \begin{tabular}{lr}
-    \multicolumn{2}{l}{\textbf{Soccer Technical Committee 2019:}}\\
-    Tairo Nomura              & Japan\\
-    James Riley               & Australia\\
-    Mikail S. Arani           & Canada\\
-    Javier E. Delgado Moreno  & Mexico \\
+    \multicolumn{2}{l}{\textbf{Soccer Tournament OC Jan 2021:}}\\
+    Person 1           & Somewhere\\
+    Person 2           & Somewhere \\
+    Person 3           & Somewhere\\
+    Person 4           & Somewhere\\
     Felipe Nascimento Martins & Netherlands\\
-    Marek \v{S}uppa           & Slovakia (CHAIR)\\
+    Person 6           & \hspace{2em}Somewhere\\
 \end{tabular}}
 
 \end{tabular}

@@ -1,4 +1,4 @@
-= RoboCupJunior Soccer Simulation Rules 2021
+= RoboCupJunior Soccer Simulation Rules January 2021
 {docdate}
 :toc: left
 :sectanchors:
@@ -17,9 +17,9 @@ endif::basebackend-html[]
 :icons: font
 :numbered:
 
-These are the official Soccer Simulation rules for RoboCupJunior 2021. They are released
-by the RoboCupJunior Soccer Technical Committee (TC). The English version of these
-rules has priority over any translations.
+These are the official Soccer Simulation rules for *the RoboCupJunior Simulation Kick-Off Tourmanet in Jan 2021*.
+They are released by the RoboCupJunior Soccer Technical Committee (TC).
+The English version of these rules has priority over any translations.
 
 Teams are advised to check the RoboCupJunior Soccer site
 https://junior.forum.robocup.org/ for OC (Organizational Committee) procedures
@@ -31,10 +31,10 @@ and at https://robocupjuniortc.github.io/soccer-rules-simulation/master/rules.pd
 form.]
 
 [title="Two teams of three robots in a simulated RoboCupJunior Soccer match."]
-image::media/soccer_sim.png[]
+image::media/soccer_sim.png[width=400]
 
-NOTE: These are the Draft rules. Although they are still subject to change, the
-TC expects the changes to be minimal and at mostly cosmetic.
+NOTE: This is the first version of these rules. The TC may change
+some aspects prior or during the course of the tournament if evidence demands so.
 
 [discrete]
 == Preface
@@ -58,15 +58,7 @@ However, depending on the results and feedback from the community, there might b
 future RoboCupJunior Soccer Simulation challenges._
 
 [discrete]
-=== Changes in comparison with the 2020 RoboCupJunior Soccer Rules
-
-The following changes were made by the Technical Committee to adapt the
-existing RoboCupJunior Soccer rules for this year’s Simulation Challenge:
-
-{+-~TOC-CHANGES~-+}
-
-[discrete]
-=== Construction and Programming have to be performed exclusively by the students
+=== Programming has to be performed exclusively by the students
 
 Robots must be programmed exclusively by student members of the team. Mentors,
 teachers, parents or companies should not be involved in the
@@ -77,6 +69,14 @@ teams abide by all other competition’s rules.
 If in doubt, please consult with your Regional Representative before
 registering your team.
 
+[discrete]
+=== Changes in comparison with the 2021 physical RoboCupJunior Soccer Rules
+
+The following changes were made by the Technical Committee to adapt the
+existing RoboCupJunior Soccer rules for this year’s Simulation Challenge:
+
+{+-~TOC-CHANGES~-+}
+
 [[gameplay]]
 == GAMEPLAY
 
@@ -85,8 +85,7 @@ registering your team.
 
 RCJ Soccer games consist of two teams of robots playing soccer against each
 other. Each team has {~~two autonomous robots~>three autonomous robots~~}. The game will consist of two
-halves. The duration of each half is 10 minutes. There will be a 5-minute break
-in between the halves.
+halves. The duration of each half is 10 minutes.
 
 {++The game will be timed by an artificial referee program. The referee will make
 all the decisions during the game automatically, including the placement of
@@ -137,7 +136,7 @@ placed outside of the center circle.
 
 {++Except for starting or stopping the simulation, human interference during the
 simulated matches is not permitted, neither by teams nor by the OC.
-All decisions and actions are taken by the robots programs
+All decisions and actions are taken by the robots' programs
 and the artificial referee autonomously.++}
 
 [[ball-movement]]
@@ -148,7 +147,8 @@ and the artificial referee autonomously.++}
 [[scoring]]
 === Scoring
 
-A goal is scored when the ball strikes or touches the back wall of the goal.
+The artificial referee will consider a goal as being scored as soon as the ball {~~strikes
+or touches the back wall of the goal~>crosses the goal line.~~}.
 Goals scored either by an attacking or defending robot have the same end
 result: they give one goal to the team on the opposite side.  After a goal, the
 game will be restarted with a kick-off from the team who was scored against.
@@ -156,9 +156,9 @@ game will be restarted with a kick-off from the team who was scored against.
 [[inside-penalty-area]]
 === Inside the Penalty Area
 
-{++No robots are supposed to be inside any penalty area for more than 10 seconds.
-After this time, they will be placed on the nearest unoccupied neutral spot.
-For this rule to apply, a robot must be inside the penalty area with its center
+{++No robots are supposed to be inside any penalty area for more than 15 seconds.
+After this time, they will be re-spawned on the furthest unoccupied neutral spot
+facing sideways. For this rule to apply, a robot must be inside the penalty area with its center
 of mass.++}
 
 [[lack-of-progress]]
@@ -175,9 +175,9 @@ will move the ball to the nearest unoccupied neutral spot. If this does not
 solve the lack of progress, the referee can move the ball to a different
 neutral spot.
 
-{++Sometimes robots in the simulation will tip or fall over. The artificial referee
-will re-spawn any robots that do not move for 15 seconds onto the neirest unoccupied
-neutral spot.++}
+{++Sometimes robots in the simulation get stuck, will tip or fall over. The artificial referee
+will re-spawn any robots that do not move for 15 seconds onto the nearest unoccupied
+neutral spot facing sideways.++}
 
 
 [[out-of-bounds]]
@@ -202,13 +202,14 @@ In principle, a game will not be stopped.
 [[team-regulations]]
 === Regulations
 
-A team must have more than one member to form a RoboCupJunior team to
+A team must have {++two, three or four members++} to form a RoboCupJunior team to
 participate in the International event. A team member(s) and/or {~~robot(s)~>program(s)~~} cannot
 be shared between teams.
 
-Each team member needs to carry a technical role.
-
-{++There is no team captain.++}
+Each team must have a *captain*. The captain is the person responsible
+for communication with {~~referees~>OC~~}. The team captain should be in a position
+to answer all of the OC's requests and questions. The team can replace its captain
+during the competition.
 
 [[team-violations]]
 === Violations
@@ -222,7 +223,7 @@ Teams that do not abide by the rules are not allowed to participate.
 [[number-of-robots-substitution]]
 === Number of robots / substitution
 
-Each team is allowed to have at most {~~two~>three~~} robots for the full tournament.
+Each team must have {~~two robots~>exactly three programs~~} for the full tournament.
 The substitution of {~~robots~>programs~~} during the competition within the team or
 with other teams is forbidden.
 
@@ -244,7 +245,10 @@ simulation world's constraints.++}
 [[communication]]
 === Communication
 
-{++There is no rule about communication.++}
+Robots may communicate within each team in the scope of the simulation,
+as long as they abide by rule <<robots-interference>>.
+
+Robots may not communicate with anything outside of the simulation world.
 
 [[agility]]
 === Agility
@@ -253,14 +257,13 @@ simulation world's constraints.++}
 world. The robots will have a cubic form, two motorized wheels and no kicker.++}
 
 {++Robots may be programmed with a controller script. They may turn in any direction, as
-well as drive forward and backward anywhere on the field. There is no restriction
-on agility.++}
+well as drive forward and backward anywhere on the field. There is a maximum speed defined
+by the simulation. There is no mandatory behaviour required for the programs.++}
 
-[[textures]]
-=== Textures
+//[[textures]]
+//=== Textures
 
-{++Robots can have customized textures.
-These textures cannot be transparent or carpet-green.++}
+//Robots can have customized textures. These textures cannot be transparent or carpet-green.
 
 
 [[field]]
@@ -270,14 +273,31 @@ These textures cannot be transparent or carpet-green.++}
 a small tutorial on how to place and move the robots during the game, as well as
 measure the robot and ball positions.++}
 
+[[Neutral-Spots]]
+=== Neutral Spots
+
+{++There are 7 neutral spots. They are defined in simulation units as follows:++}
+
+[cols=4*,options=header]
+|===
+| *Nr.* | *Name* | *X-Coordinate* | *Z-Coordinate*
+| 1 | Central Point | 0.2 | 0
+| 2 | Blue Side | 0.2 | 0
+| 3 | Blue Side | 0.3 | 0.3
+| 4 | Blue Side | 0.3 | -0.3
+| 5 | Yellow Side | -0.2 | 0
+| 6 | Yellow Side | -0.3 | 0.3
+| 7 | Yellow Side | -0.3 | -0.3
+|===
+
 
 [discrete]
 [[field-diagrams]]
 == FIELD DIAGRAMS
 
-image:media/soccer_sim_field.png[image,scaledwidth=70.0%]
+image:media/soccer_sim_field.png[image,width=400]
 
-image:media/soccer_sim_field_topview.png[image,scaledwidth=70.0%]
+image:media/soccer_sim_field_neutral.png[image,width=400]
 
 
 [[code-of-conduct]]
@@ -289,10 +309,10 @@ image:media/soccer_sim_field_topview.png[image,scaledwidth=70.0%]
 It is expected that the aim of all teams is to play a fair and clean game of
 robot soccer.
 
-Robots are not allowed to cause interference with other
+Programs are not allowed to cause interference with other
 robots or the referee during normal game play.
 
-Robots are not allowed to cause interference to the field or to the ball during
+Programs are not allowed to cause interference to the field or to the ball during
 normal game play.
 
 {++A team that does that may be disqualified from the tournament at the OC's
@@ -302,18 +322,16 @@ discretion.++}
 [[behavior]]
 === Behavior
 
-All participants are expected to behave themselves. All movement and behavior
+All participants are expected to behave themselves. All behavior
 is to be of a subdued nature within the tournament.
 
 [[help]]
 === Help
 
 Mentors (teachers, parents, chaperones, and other adult team-members including
-translators) are not allowed in the student work area unless it is explicitly
-but temporarily permitted by a member of the Organizing Committee. Only
-participating students are allowed to be inside the work area.
+translators) are not allowed to work on the teams' programs.
 
-*Mentors must not touch, build, repair, or program any robots.*
+*Mentors must not touch, build or program any programs.*
 
 [[sharing]]
 === Sharing
@@ -321,6 +339,12 @@ participating students are allowed to be inside the work area.
 The understanding that any technological and curricular developments should be
 shared among the RoboCup and RoboCupJunior participants after the tournament
 has been a part of world RoboCup competitions.
+
+{++All the code must be shared with other participants and made open-source after
+the tournament.++}
+
+{++Also, if you find any bugs within the simulation world or the
+artificial referee (except for the Webots logo), please let us know.++}
 
 [[spirit]]
 === Spirit
@@ -378,55 +402,55 @@ the inspection of programs, interviews, schedules, etc.). Regulatory statutes
 become a part of this rule.
 
 
-[[international-competition]]
-== INTERNATIONAL COMPETITION
+//[[international-competition]]
+//== INTERNATIONAL COMPETITION
+//
+//[[international-competition-team]]
+//=== Team
+//
+//Maximum team size is 4 members for RoboCupJunior 2021.
 
-[[international-competition-team]]
-=== Team
+//[[interviews]]
+//=== Interviews
+//
+//During the international competition, the Organizing Committee will arrange to
+//interview teams during the event. --during the Setup Day of the event--  This means that the teams
+//need to be ready present ++their code and any documentation at the interview.++
+//
+//During an interview, at least one member from each team must be able to explain
+//particularities about the team’s programming. An interviewer may ask the team for a
+//demonstration. The interviewer may also ask the team to write a simple program
+//during the interview to verify that the team is able to program its robot.
+//
+//All teams are expected to be able to conduct the interview in English.  If this
+//poses a problem, the team may ask for a translator to be present at the
+//interview. If the OC is not able to provide a translator, the team is required
+//to do so. During the interview, the team will be evaluated using so called
+//Rubrics, which are published on the website mentioned in the beginning of these
+//rules.
+//
+//The Technical Committee recommends the implementation of interviews in regional
+//competitions as well, but this is not mandatory.
 
-Maximum team size is 4 members for RoboCupJunior 2021.
-
-[[interviews]]
-=== Interviews
-
-During the international competition, the Organizing Committee will arrange to
-interview teams during the event.{--during the Setup Day of the event--} This means that the teams
-need to be ready present {++their code and any documentation at the interview.++}
-
-During an interview, at least one member from each team must be able to explain
-particularities about the team’s programming. An interviewer may ask the team for a
-demonstration. The interviewer may also ask the team to write a simple program
-during the interview to verify that the team is able to program its robot.
-
-All teams are expected to be able to conduct the interview in English.  If this
-poses a problem, the team may ask for a translator to be present at the
-interview. If the OC is not able to provide a translator, the team is required
-to do so. During the interview, the team will be evaluated using so called
-Rubrics, which are published on the website mentioned in the beginning of these
-rules.
-
-The Technical Committee recommends the implementation of interviews in regional
-competitions as well, but this is not mandatory.
-
-[[further-information-on-international-competition]]
-=== Further information on International Competition
-
-All teams qualified to the international competition *must* share their {--designs,
-both hardware and software--} software with all present and future participants.
-These teams are also required to send a digital portfolio before the
-competition. Further details on how will be provided by the Organizational
-Committee.
-
-During the competition days of the International Competition (as well as before
-the event) the team members are responsible for checking all relevant
-information published by the Soccer Organizational Committee, General Chairs,
-or any other RoboCup official.
-
-Teams competing in the International Competition can receive awards for their
-performance. These awards are decided and introduced by the Organizational
-Committee, which publishes all necessary details well before the actual event.
-In the past years they were awarded for best poster, presentation, robot
-design, team spirit and individual games.
-
-Note that as stated in <<spirit>>, *_it is not whether you win or lose, but how
-much you learn that counts!_*
+//[[further-information-on-international-competition]]
+//=== Further information on International Competition
+//
+//All teams qualified to the international competition *must* share their --designs,
+//both hardware and software-- software with all present and future participants.
+//These teams are also required to send a digital portfolio before the
+//competition. Further details on how will be provided by the Organizational
+//Committee.
+//
+//During the competition days of the International Competition (as well as before
+//the event) the team members are responsible for checking all relevant
+//information published by the Soccer Organizational Committee, General Chairs,
+//or any other RoboCup official.
+//
+//Teams competing in the International Competition can receive awards for their
+//performance. These awards are decided and introduced by the Organizational
+//Committee, which publishes all necessary details well before the actual event.
+//In the past years they were awarded for best poster, presentation, robot
+//design, team spirit and individual games.
+//
+//Note that as stated in <<spirit>>, *_it is not whether you win or lose, but how
+//much you learn that counts!_*

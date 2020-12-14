@@ -17,7 +17,7 @@ endif::basebackend-html[]
 :icons: font
 :numbered:
 
-These are the official Soccer Simulation rules for *the RoboCupJunior Simulation Kick-Off Tourmanet in Jan 2021*.
+These are the official Soccer Simulation rules for *the RoboCupJunior Simulation Demo Competition in Jan 2021*.
 They are released by the RoboCupJunior Soccer Technical Committee (TC).
 The English version of these rules has priority over any translations.
 
@@ -69,13 +69,7 @@ teams abide by all other competition’s rules.
 If in doubt, please consult with your Regional Representative before
 registering your team.
 
-[discrete]
-=== Changes in comparison with the 2021 physical RoboCupJunior Soccer Rules
 
-The following changes were made by the Technical Committee to adapt the
-existing RoboCupJunior Soccer rules for this year’s Simulation Challenge:
-
-{+-~TOC-CHANGES~-+}
 
 [[gameplay]]
 == GAMEPLAY
@@ -84,7 +78,7 @@ existing RoboCupJunior Soccer rules for this year’s Simulation Challenge:
 === Game procedure and length of a game
 
 RCJ Soccer games consist of two teams of robots playing soccer against each
-other. Each team has {~~two autonomous robots~>three autonomous robots~~}. The game will consist of two
+other. Each team has {++three autonomous robots++}. The game will consist of two
 halves. The duration of each half is 10 minutes.
 
 {++The game will be timed by an artificial referee program. The referee will make
@@ -106,11 +100,8 @@ via an online streaming service.++}
 [[pre-match-meeting]]
 === Pre-match meeting
 
-At the start of the first half of the game, {~~a referee will toss a coin. The
-team mentioned first in the draw shall call the coin. The winner of the toss
-can choose either which end to kick towards, or to kick off first. The loser of
-the toss chooses the other option.~>the artificial referee will choose the team
-kicking off at random, as well as the goal they will kick towards.~~} After the first half, teams switch sides.
+At the start of the first half of the game, {++the artificial referee will choose the team
+kicking off at random, as well as the goal they will kick towards.++} After the first half, teams switch sides.
 The team not kicking off in the first half of the game will kick off to begin
 the second half of the game.
 
@@ -119,17 +110,16 @@ the second half of the game.
 
 Each half of the game begins with a kick-off. All robots must be located on
 their own side of the field. All robots must be halted. The ball is positioned
-by {~~a referee~>the artificial referee~~} in the center of the field. All robots on the team not kicking off must be {--at least 30 cm away
-from the ball--} outside of the center circle.
+by the artificial referee in the center of the field. All robots on the team not
+kicking off must be outside of the center circle.
 
-{++On the artificial referee's command, all robots will be started immediately.++}
+On the artificial referee's command, all robots will be started immediately.
 
 [[neutral-kickoff]]
 ==== Neutral kick-off
 
 A neutral kick-off is the same as the one described in <<kick-off>> with a
-small change: all robots need must be {--at least 30 cm away from the ball--}
-placed outside of the center circle.
+small change: all robots need must be placed outside of the center circle.
 
 [[human-interference]]
 === Human interference
@@ -147,8 +137,8 @@ and the artificial referee autonomously.++}
 [[scoring]]
 === Scoring
 
-The artificial referee will consider a goal as being scored as soon as the ball {~~strikes
-or touches the back wall of the goal~>crosses the goal line.~~}.
+The artificial referee will consider a goal as being scored as soon as the ball
+{++crosses the goal line.++}.
 Goals scored either by an attacking or defending robot have the same end
 result: they give one goal to the team on the opposite side.  After a goal, the
 game will be restarted with a kick-off from the team who was scored against.
@@ -170,14 +160,10 @@ lack of progress situations are when the ball is stuck between robots, when
 there is no change in ball and robot’s positions, or when the ball is beyond
 detection or reach capability of all robots on the field.
 
-{~~After a visible and loud count~>After no significant ball movement occurred for 10 seconds~~}, the artificial referee will call "lack of progress" and
+{++After no significant ball movement occurred for 10 seconds++}, the artificial referee will call "lack of progress" and
 will move the ball to the nearest unoccupied neutral spot. If this does not
 solve the lack of progress, the referee can move the ball to a different
 neutral spot.
-
-{++Sometimes robots in the simulation get stuck, will tip or fall over. The artificial referee
-will re-spawn any robots that do not move for 15 seconds onto the nearest unoccupied
-neutral spot facing sideways.++}
 
 
 [[out-of-bounds]]
@@ -188,7 +174,16 @@ neutral spot facing sideways.++}
 [[damaged-robots]]
 === Damaged robots
 
-{++There is no rule about damaged robots.++}
+{++Sometimes robots in the simulation will tip or fall over. In any case when
+a robot does not move for 15 seconds, the artificial referee will re-spawn it
+onto the neirest unoccupied neutral spot.++}
+
+A robot that is respawned more than 3 times in a row according to this rule without moving
+at all in-between is considered damaged and will be taken off the field. The
+robot must remain off the field for one minute or until the next kick-off
+is due. It will be placed on the free unoccupied neutral spot furthest from the ball,
+facing sideways.
+
 
 [[interruption-of-game-ref-interruption]]
 === Interruption of Game
@@ -203,11 +198,11 @@ In principle, a game will not be stopped.
 === Regulations
 
 A team must have {++two, three or four members++} to form a RoboCupJunior team to
-participate in the International event. A team member(s) and/or {~~robot(s)~>program(s)~~} cannot
+participate in the International event. A team member(s) and/or program(s) cannot
 be shared between teams.
 
 Each team must have a *captain*. The captain is the person responsible
-for communication with {~~referees~>OC~~}. The team captain should be in a position
+for communication with {++the OC++}. The team captain should be in a position
 to answer all of the OC's requests and questions. The team can replace its captain
 during the competition.
 
@@ -223,8 +218,10 @@ Teams that do not abide by the rules are not allowed to participate.
 [[number-of-robots-substitution]]
 === Number of robots / substitution
 
-Each team must have {~~two robots~>exactly three programs~~} for the full tournament.
-The substitution of {~~robots~>programs~~} during the competition within the team or
+Each team must have {++exactly three programs++} for the full tournament.
+footnote:[This means, each of the three robot has its own program. This can be three different
+programs, or three times the same program, or anything in between.]
+The substitution of  programs during the competition within the team or
 with other teams is forbidden.
 
 [[robots-control]]
@@ -273,15 +270,19 @@ by the simulation. There is no mandatory behaviour required for the programs.++}
 a small tutorial on how to place and move the robots during the game, as well as
 measure the robot and ball positions.++}
 
-[[Neutral-Spots]]
+[title="An empty field with its coordinates x (blue) and y (red)."]
+image::media/soccer_sim_field.png[image,height=170]
+
+
+[[neutral-spots]]
 === Neutral Spots
 
 {++There are 7 neutral spots. They are defined in simulation units as follows:++}
 
 [cols=4*,options=header]
 |===
-| *Nr.* | *Name* | *X-Coordinate* | *Z-Coordinate*
-| 1 | Central Point | 0.2 | 0
+| *Nr.* | *Name* | *X-Coordinate* | *Y-Coordinate*
+| 1 | Central Point | 0 | 0
 | 2 | Blue Side | 0.2 | 0
 | 3 | Blue Side | 0.3 | 0.3
 | 4 | Blue Side | 0.3 | -0.3
@@ -291,13 +292,8 @@ measure the robot and ball positions.++}
 |===
 
 
-[discrete]
-[[field-diagrams]]
-== FIELD DIAGRAMS
-
-image:media/soccer_sim_field.png[image,width=400]
-
-image:media/soccer_sim_field_neutral.png[image,width=400]
+[title="The ball and the 6 robots on the 7 neutral spots as defined in <<neutral-spots>>"]
+image::media/soccer_sim_field_neutral.png[image,height=200]
 
 
 [[code-of-conduct]]

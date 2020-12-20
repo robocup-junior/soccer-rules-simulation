@@ -270,7 +270,7 @@ by the simulation. There is no mandatory behaviour required for the programs.++}
 a small tutorial on how to place and move the robots during the game, as well as
 measure the robot and ball positions.++}
 
-[title="An empty field with its coordinates x (blue) and y (red)."]
+[title="An empty field with its reference frame in the center: X (red) and Y (blue)."]
 image::media/soccer_sim_field.png[image,height=170]
 
 

@@ -225,11 +225,14 @@ The substitution of  programs during the competition within the team or
 with other teams is forbidden.
 
 [[robots-control]]
-=== Control
+=== Robot Control
 
-{++The Teams will write a controller program to move the robots during the simulation.
-The program will be pre-written by the teams and used for the whole competition.
-Substitution of the program during the competition or during a match is not allowed.++}
+{++The Teams will write a controller program to move the robots during the simulation. 
+The simulated robots have two wheels to control its movement (one on each side - differential-drive). 
+The only aspect of the simulation that the program is allowed to act on is the speed of
+the wheels of the robot that it is controlling. The program will be pre-written by
+the teams and used for the whole competition. Substitution of the program during the 
+competition or during a match is not allowed.++}
 
 [[robots-interference]]
 === Interference

@@ -31,10 +31,10 @@ and at https://robocupjuniortc.github.io/soccer-rules-simulation/master/rules.pd
 form.]
 
 [title="Two teams of three robots in a simulated RoboCupJunior Soccer match."]
-image::media/soccer_sim.png[width=400]
+image::media/soccer_sim.png[width=350]
 
-NOTE: This is the first version of these rules. The TC may change
-some aspects prior or during the course of the tournament if evidence demands so.
+NOTE: This is the first version of these rules for the Simulation Demo Competition in Jan 2021.
+The TC may change some aspects prior or during the course of the tournament if evidence demands so.
 
 [discrete]
 == Preface

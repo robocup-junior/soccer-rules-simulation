@@ -9,7 +9,7 @@ simplify the rules (or in the best case, both).
 
 ## How do I suggest a change?
 
-Please edit the [`rules.adoc`](https://github.com/RoboCupJuniorTC/soccer-rules/edit/master/rules.adoc)
+Please edit the [`rules.adoc`](https://github.com/RoboCupJuniorTC/soccer-rules-simulation/blob/master/rules.adoc)
 file. The easiest way of doing that seems to be following the
 [GitHub's instructions](https://help.github.com/articles/editing-files-in-another-user-s-repository/)
 on how to edit files in another user's repository.

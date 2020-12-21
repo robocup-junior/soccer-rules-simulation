@@ -311,9 +311,6 @@ robots or the referee during normal game play.
 Programs are not allowed to cause interference to the field or to the ball during
 normal game play.
 
-{++A team that does that may be disqualified from the tournament at the OC's
-discretion.++}
-
 
 [[behavior]]
 === Behavior

@@ -84,7 +84,7 @@ halves. The duration of each half is 10 minutes.
 {++The game will be timed by an artificial referee program. The referee will make
 all the decisions during the game automatically, including the placement of
 the ball and of robots. There will be no discussion on decisions the artificial
-referee did.++}
+referee took.++}
 
 The final game score will be trimmed so that there is
 at most 10 goal difference between the losing and the winning team.
@@ -108,10 +108,10 @@ the second half of the game.
 [[kick-off]]
 === Kick-off
 
-Each half of the game begins with a kick-off. All robots must be located on
-their own side of the field. All robots must be halted. The ball is positioned
+Each half of the game begins with a kick-off. All robots will be positioned by the artificial referee on
+their own side of the field and halted. The ball is positioned 
 by the artificial referee in the center of the field. All robots on the team not
-kicking off must be outside of the center circle.
+kicking off will be outside of the center circle.
 
 On the artificial referee's command, all robots will be started immediately.
 

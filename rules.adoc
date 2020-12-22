@@ -132,13 +132,13 @@ and the artificial referee autonomously.++}
 [[ball-movement]]
 === Ball movement
 
-{++A robot cannot hold a ball.++}
+{++A robot cannot hold the ball.++}
 
 [[scoring]]
 === Scoring
 
-The artificial referee will consider a goal as being scored as soon as the ball
-{++crosses the goal line.++}.
+The artificial referee will consider a goal as being scored as soon as the ball {++crosses the goal line.++}.
+
 Goals scored either by an attacking or defending robot have the same end
 result: they give one goal to the team on the opposite side.  After a goal, the
 game will be restarted with a kick-off from the team who was scored against.
@@ -160,7 +160,7 @@ lack of progress situations are when the ball is stuck between robots, when
 there is no change in ball and robot’s positions, or when the ball is beyond
 detection or reach capability of all robots on the field.
 
-{++After no significant ball movement occurred for 10 seconds++}, the artificial referee will call "lack of progress" and
+{++If no significant ball movement occurs for 10 seconds++}, the artificial referee will call "lack of progress" and
 will move the ball to the nearest unoccupied neutral spot. If this does not
 solve the lack of progress, the referee can move the ball to a different
 neutral spot.
@@ -169,14 +169,14 @@ neutral spot.
 [[out-of-bounds]]
 === Out of bounds
 
-{++There is no rule such as "Out of Bounds".++}
+{++There is no "Out of Bounds" rule.++}
 
 [[damaged-robots]]
 === Damaged robots
 
 {++Sometimes robots in the simulation will tip or fall over. In any case when
 a robot does not move for 15 seconds, the artificial referee will re-spawn it
-onto the neirest unoccupied neutral spot.++}
+onto the nearest unoccupied neutral spot.++}
 
 A robot that is respawned more than 3 times in a row according to this rule without moving
 at all in-between is considered damaged and will be taken off the field. The

@@ -151,6 +151,9 @@ After this time, they will be re-spawned on the furthest unoccupied neutral spot
 facing sideways. For this rule to apply, a robot must be inside the penalty area with its center
 of mass.++}
 
+{++For the timer to be reset, the robots must be outside the penalty area for
+more than 2 seconds.++}
+
 [[lack-of-progress]]
 === Lack of progress
 

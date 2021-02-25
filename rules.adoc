@@ -17,7 +17,7 @@ endif::basebackend-html[]
 :icons: font
 :numbered:
 
-These are the official Soccer Simulation rules for *the RoboCupJunior Simulation Demo Competition in Feb 2021*.
+These are the official Soccer Simulation rules for *the RoboCupJunior Simulation 2021*.
 They are released by the RoboCupJunior Soccer Technical Committee (TC).
 The English version of these rules has priority over any translations.
 
@@ -33,8 +33,8 @@ form.]
 [title="Two teams of three robots in a simulated RoboCupJunior Soccer match."]
 image::media/soccer_sim.png[width=350]
 
-NOTE: This is the first version of these rules for the Simulation Demo Competition in Feb 2021.
-The TC may change some aspects prior or during the course of the tournament if evidence demands so.
+NOTE: This is a draft version of these rules for the Simulation Demo Competition in Feb 2021.
+The final version of the rules may differ slightly from this draft, but only in minor aspect.
 
 [discrete]
 == Preface
@@ -55,7 +55,7 @@ RoboCupJunior Soccer Leagues. There is no need to meet in person for the RoboCup
 Simulation challenge. The Soccer Simulation League was created solely for the
 2021 season. There is no guarantee for continuing it throughout later seasons.
 However, depending on the results and feedback from the community, there might be
-future RoboCupJunior Soccer Simulation challenges._
+future RoboCupJunior Soccer Simulation challenges and leagues._
 
 [discrete]
 === Programming has to be performed exclusively by the students

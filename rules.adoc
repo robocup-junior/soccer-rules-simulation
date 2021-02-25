@@ -165,11 +165,19 @@ will move the ball to the nearest unoccupied neutral spot. If this does not
 solve the lack of progress, the referee can move the ball to a different
 neutral spot.
 
+{++When placing the ball on a neutral spot, the exact position may vary a little.
+Furthermore, when placing the ball in the center of the field, the ball may be placed
+anywhere within the center circle instead. Consequently, the exact ball position after a
+lack-of-progress situation cannot be predicted.++}
+
 
 [[out-of-bounds]]
 === Out of bounds
 
-{++There is no "Out of Bounds" rule.++}
+There is no "Out of Bounds" rule.
+
+{++If the ball accidentally leaves the field of play, it will be returned into play
+according to the rules of <<lack-of-progress>>.++}
 
 [[damaged-robots]]
 === Damaged robots

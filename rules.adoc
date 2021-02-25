@@ -406,55 +406,62 @@ the inspection of programs, interviews, schedules, etc.). Regulatory statutes
 become a part of this rule.
 
 
-//[[international-competition]]
-//== INTERNATIONAL COMPETITION
-//
-//[[international-competition-team]]
-//=== Team
-//
-//Maximum team size is 4 members for RoboCupJunior 2021.
+[[international-competition]]
+== INTERNATIONAL COMPETITION
 
-//[[interviews]]
-//=== Interviews
-//
-//During the international competition, the Organizing Committee will arrange to
-//interview teams during the event. --during the Setup Day of the event--  This means that the teams
-//need to be ready present ++their code and any documentation at the interview.++
-//
-//During an interview, at least one member from each team must be able to explain
-//particularities about the team’s programming. An interviewer may ask the team for a
-//demonstration. The interviewer may also ask the team to write a simple program
-//during the interview to verify that the team is able to program its robot.
-//
-//All teams are expected to be able to conduct the interview in English.  If this
-//poses a problem, the team may ask for a translator to be present at the
-//interview. If the OC is not able to provide a translator, the team is required
-//to do so. During the interview, the team will be evaluated using so called
-//Rubrics, which are published on the website mentioned in the beginning of these
-//rules.
-//
-//The Technical Committee recommends the implementation of interviews in regional
-//competitions as well, but this is not mandatory.
+[[international-competition-team]]
+=== Team
 
-//[[further-information-on-international-competition]]
-//=== Further information on International Competition
-//
-//All teams qualified to the international competition *must* share their --designs,
-//both hardware and software-- software with all present and future participants.
-//These teams are also required to send a digital portfolio before the
-//competition. Further details on how will be provided by the Organizational
-//Committee.
-//
-//During the competition days of the International Competition (as well as before
-//the event) the team members are responsible for checking all relevant
-//information published by the Soccer Organizational Committee, General Chairs,
-//or any other RoboCup official.
-//
-//Teams competing in the International Competition can receive awards for their
-//performance. These awards are decided and introduced by the Organizational
-//Committee, which publishes all necessary details well before the actual event.
-//In the past years they were awarded for best poster, presentation, robot
-//design, team spirit and individual games.
-//
-//Note that as stated in <<spirit>>, *_it is not whether you win or lose, but how
-//much you learn that counts!_*
+Maximum team size is 4 members for Teams competing in the RoboCupJunior Soccer Simulation League 2021.
+
+Team members can participate independently of their participation in earlier RoboCupJunior Soccer Leagues.
+
+[[interviews]]
+=== Interviews
+
+During the international competition, the Organizing Committee may arrange to
+interview teams during the event. The exact schedule will be published by the
+Organization Committee prior to the event.
+
+During an interview, at least one member from each team must be able to explain
+particularities about the team’s robots, especially with regards to its
+strategy and its programming. An interviewer may ask the team for a
+demonstration. The interviewer may also ask the team to write a simple program
+during the interview to verify that the team is able to program its robot.
+
+All teams are expected to be able to conduct the interview in English.  If this
+poses a problem, the team may ask for a translator to be present at the
+interview. If the OC is not able to provide a translator, the team is required
+to do so. During the interview, the team will be evaluated using so called
+Rubrics, which are published on the website mentioned in the beginning of these
+rules.
+
+The Technical Committee recommends the implementation of interviews in regional
+competitions as well, but this is not mandatory.
+
+[[poster-sessions]]
+=== Poster Sessions
+
+During the international competition, the Organizing Committee may also arrange
+digital poster sessions for the teams to attend. The poster sessions will be held online.
+Details will be published prior to the competition.
+
+[[technical-challenges]]
+=== Technical Challenges
+
+Inspired by the major leagues and the need for further technological
+advancement of the leagues, the Technical Committee has decided to conduct so
+called *Technical Challenges*.
+
+The idea of these challenges is to give the teams an opportunity to show off
+various abilities of their robots which may not get noticed during the regular
+games. Furthermore, the Technical Committee envisions these challenges to be a
+place for testing new ideas that may make it to the future rules, or otherwise
+shape the competition.
+
+Any RoboCupJunior Soccer team will be eligible to try to tackle these
+challenges. Unless otherwise stated, any robot taking part in these challenges
+needs to abide by these rules in order to successfully complete it.
+
+The technical challenges will be published prior to the competition, or
+during competition days.

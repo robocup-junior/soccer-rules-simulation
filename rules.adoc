@@ -34,7 +34,7 @@ form.]
 image::media/soccer_sim.png[width=350]
 
 NOTE: This is a draft version of these rules for the Simulation Demo Competition in Feb 2021.
-The final version of the rules may differ slightly from this draft, but only in minor aspect.
+The final version of the rules may differ slightly from this draft, but only in minor aspects.
 
 [discrete]
 == Preface
@@ -75,7 +75,7 @@ registering your team.
 == GAMEPLAY
 
 [[game-procedure-and-length-of-a-game]]
-=== Game procedure and length of a game
+=== Game Procedure and Length of a Game
 
 RCJ Soccer games consist of two teams of robots playing soccer against each
 other. Each team has three autonomous robots. The game will consist of two
@@ -87,7 +87,7 @@ the ball and of robots. There will be no discussion on decisions the artificial
 referee took.
 
 [[pre-match-programming]]
-=== Pre-match programming
+=== Pre-Match Programming
 
 Teams will send their code to the organization committee (OC) before the competition.
 The matches will then be conducted by the OC, which will run the code of the teams
@@ -95,7 +95,7 @@ against each other. The matches will either be pre-recorded, or streamed live
 via an online streaming service.
 
 [[pre-match-meeting]]
-=== Pre-match meeting
+=== Pre-Match Meeting
 
 At the start of the first half of the game, the artificial referee will choose the team
 kicking off at random, as well as the goal they will kick towards. After the first half, teams switch sides.
@@ -103,7 +103,7 @@ The team not kicking off in the first half of the game will kick off to begin
 the second half of the game.
 
 [[kick-off]]
-=== Kick-off
+=== Kick-Off
 
 Each half of the game begins with a kick-off. All robots will be positioned by the artificial referee on
 their own side of the field and halted. The ball is positioned 
@@ -113,13 +113,13 @@ kicking off will be outside of the center circle.
 On the artificial referee's command, all robots will be started immediately.
 
 [[neutral-kickoff]]
-==== Neutral kick-off
+==== Neutral Kick-Off
 
 A neutral kick-off is the same as the one described in <<kick-off>> with a
-small change: all robots need must be placed outside of the center circle.
+small change: all robots must be placed outside of the center circle.
 
 [[human-interference]]
-=== Human interference
+=== Human Interference
 
 Except for starting or stopping the simulation, human interference during the
 simulated matches is not permitted, neither by teams nor by the OC.
@@ -127,7 +127,7 @@ All decisions and actions are taken by the robots' programs
 and the artificial referee autonomously.
 
 [[ball-movement]]
-=== Ball movement
+=== Ball Movement
 
 A robot cannot hold the ball.
 
@@ -152,7 +152,7 @@ For the timer to be reset, the robots must be outside the penalty area for
 more than 2 seconds.
 
 [[lack-of-progress]]
-=== Lack of progress
+=== Lack of Progress
 
 Lack of progress occurs if there is no progress in the gameplay for a
 reasonable period of time.  Typical
@@ -172,15 +172,15 @@ lack-of-progress situation cannot be predicted.++}
 
 
 [[out-of-bounds]]
-=== Out of bounds
+=== Out of Bounds
 
 There is no "Out of Bounds" rule.
 
-{++If the ball accidentally leaves the field of play, it will be returned into play
-according to the rules of <<lack-of-progress>>.++}
+{++If the ball accidentally leaves the field of play, it will be returned into play immediately,
+and placed on the field according to the rules of <<lack-of-progress>>.++}
 
 [[damaged-robots]]
-=== Damaged robots
+=== Damaged Robots
 
 Sometimes robots in the simulation will tip or fall over. In any case when
 a robot does not move for 15 seconds, the artificial referee will re-spawn it
@@ -224,7 +224,7 @@ Teams that do not abide by the rules are not allowed to participate.
 == ROBOTS
 
 [[number-of-robots-substitution]]
-=== Number of robots / substitution
+=== Number of Robots / Substitution
 
 Each team must have exactly three programs for the full tournament.
 footnote:[This means, each of the three robot has its own program. This can be three different
@@ -384,13 +384,13 @@ During gameplay, the decisions made by the artificial referee are final.
 At the conclusion of the game, the result recorded is final.
 
 [[rule-clarification]]
-=== Rule clarification
+=== Rule Clarification
 
 Rule clarification may be made by members of the RoboCupJunior Soccer Technical
 Committee and Organizing Committee, if necessary even during a tournament.
 
 [[rule-modification]]
-=== Rule modification
+=== Rule Modification
 
 If special circumstances, such as unforeseen problems or capabilities of a
 robot occur, rules may be modified by the RoboCupJunior Soccer Organizing
@@ -398,7 +398,7 @@ Committee Chair in conjunction with available Technical Committee and
 Organizing Committee members, if necessary even during a tournament.
 
 [[regulatory-statutes]]
-=== Regulatory statutes
+=== Regulatory Statutes
 
 Each RoboCupJunior competition may have its own regulatory statutes to define
 the procedure of the tournament (for example the SuperTeam system, game modes,

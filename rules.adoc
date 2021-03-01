@@ -17,7 +17,7 @@ endif::basebackend-html[]
 :icons: font
 :numbered:
 
-These are the official Soccer Simulation rules for *the RoboCupJunior Simulation 2021*.
+These are the official Soccer Simulation rules for *the RoboCupJunior 2021*.
 They are released by the RoboCupJunior Soccer Technical Committee (TC).
 The English version of these rules has priority over any translations.
 
@@ -29,6 +29,9 @@ footnote:[The current version of these rules can be found at
 https://robocupjuniortc.github.io/soccer-rules-simulation/master/rules.html in HTML form
 and at https://robocupjuniortc.github.io/soccer-rules-simulation/master/rules.pdf in PDF
 form.]
+
+Instructions on the Webots environment, on how to program controllers, as well as demos
+and tutorials can be found online at https://robocupjuniortc.github.io/rcj-soccer-sim/.
 
 [title="Two teams of three robots in a simulated RoboCupJunior Soccer match."]
 image::media/soccer_sim.png[width=350]
@@ -161,14 +164,9 @@ there is no change in ball and robot’s positions, or when the ball is beyond
 detection or reach capability of all robots on the field.
 
 If no significant ball movement occurs for 10 seconds, the artificial referee will call "lack of progress" and
-will move the ball to the nearest unoccupied neutral spot. If this does not
+will move the ball to {++a random unoccupied neutral spot.++} If this does not
 solve the lack of progress, the referee can move the ball to a different
 neutral spot.
-
-{++When placing the ball on a neutral spot, the exact position may vary a little.
-Furthermore, when placing the ball in the center of the field, the ball may be placed
-anywhere within the center circle instead. Consequently, the exact ball position after a
-lack-of-progress situation cannot be predicted.++}
 
 
 [[out-of-bounds]]
@@ -176,7 +174,7 @@ lack-of-progress situation cannot be predicted.++}
 
 There is no "Out of Bounds" rule.
 
-{++If the ball accidentally leaves the field of play, it will be returned into play immediately,
+{++If the ball or any robot accidentally leaves the field of play, it will be returned into play immediately,
 and placed on the field according to the rules of <<lack-of-progress>>.++}
 
 [[damaged-robots]]

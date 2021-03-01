@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" content="Asciidoctor 2.0.10">
-<meta name="author" content="2021-02-26">
+<meta name="author" content="2021-03-01">
 <title>RoboCupJunior Soccer Simulation Rules January 2021</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
@@ -441,7 +441,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div id="header">
 <h1>RoboCupJunior Soccer Simulation Rules January 2021</h1>
 <div class="details">
-<span id="author" class="author">2021-02-26</span><br>
+<span id="author" class="author">2021-03-01</span><br>
 </div>
 <div id="toc" class="toc2">
 <div id="toctitle">Table of Contents</div>
@@ -517,7 +517,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 <script src="https://hypothes.is/embed.js" async></script>
 <div class="paragraph">
-<p>These are the official Soccer Simulation rules for <strong>the RoboCupJunior Simulation 2021</strong>.
+<p>These are the official Soccer Simulation rules for <strong>the RoboCupJunior 2021</strong>.
 They are released by the RoboCupJunior Soccer Technical Committee (TC).
 The English version of these rules has priority over any translations.</p>
 </div>
@@ -527,6 +527,10 @@ The English version of these rules has priority over any translations.</p>
 and requirements for the international competition. Each team is responsible
 for verifying the latest version of the rules prior to competition.
 <sup class="footnote">[<a id="_footnoteref_1" class="footnote" href="#_footnotedef_1" title="View footnote.">1</a>]</sup></p>
+</div>
+<div class="paragraph">
+<p>Instructions on the Webots environment, on how to program controllers, as well as demos
+and tutorials can be found online at <a href="https://robocupjuniortc.github.io/rcj-soccer-sim/" class="bare">https://robocupjuniortc.github.io/rcj-soccer-sim/</a>.</p>
 </div>
 <div class="imageblock">
 <div class="content">
@@ -687,12 +691,10 @@ detection or reach capability of all robots on the field.</p>
 </div>
 <div class="paragraph">
 <p>If no significant ball movement occurs for 10 seconds, the artificial referee will call "lack of progress" and
-will move the ball to the nearest unoccupied neutral spot. If this does not
+will move the ball to <a id="addition-1"></a>
+<span class="red"><strong>a random unoccupied neutral spot.</strong></span> If this does not
 solve the lack of progress, the referee can move the ball to a different
 neutral spot.</p>
-</div>
-<div id="addition-1" class="paragraph">
-<p><span class="red"><strong>When placing the ball on a neutral spot, the exact position may vary a little. Furthermore, when placing the ball in the center of the field, the ball may be placed anywhere within the center circle instead. Consequently, the exact ball position after a lack-of-progress situation cannot be predicted.</strong></span></p>
 </div>
 </div>
 <div class="sect2">
@@ -701,7 +703,7 @@ neutral spot.</p>
 <p>There is no "Out of Bounds" rule.</p>
 </div>
 <div id="addition-2" class="paragraph">
-<p><span class="red"><strong>If the ball accidentally leaves the field of play, it will be returned into play immediately, and placed on the field according to the rules of <a href="#lack-of-progress">Rule 1.9, &#8220;Lack of Progress&#8221;</a>.</strong></span></p>
+<p><span class="red"><strong>If the ball or any robot accidentally leaves the field of play, it will be returned into play immediately, and placed on the field according to the rules of <a href="#lack-of-progress">Rule 1.9, &#8220;Lack of Progress&#8221;</a>.</strong></span></p>
 </div>
 </div>
 <div class="sect2">
@@ -1101,7 +1103,7 @@ during competition days.</p>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2021-02-26 19:48:29 UTC
+Last updated 2021-03-01 23:23:19 UTC
 </div>
 </div>
 </body>

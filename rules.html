@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" content="Asciidoctor 2.0.10">
-<meta name="author" content="2021-01-04">
+<meta name="author" content="2021-03-01">
 <title>RoboCupJunior Soccer Simulation Rules January 2021</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
@@ -441,24 +441,24 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div id="header">
 <h1>RoboCupJunior Soccer Simulation Rules January 2021</h1>
 <div class="details">
-<span id="author" class="author">2021-01-04</span><br>
+<span id="author" class="author">2021-03-01</span><br>
 </div>
 <div id="toc" class="toc2">
 <div id="toctitle">Table of Contents</div>
 <ul class="sectlevel1">
 <li><a href="#gameplay">1. GAMEPLAY</a>
 <ul class="sectlevel2">
-<li><a href="#game-procedure-and-length-of-a-game">1.1. Game procedure and length of a game</a></li>
-<li><a href="#pre-match-programming">1.2. Pre-match programming</a></li>
-<li><a href="#pre-match-meeting">1.3. Pre-match meeting</a></li>
-<li><a href="#kick-off">1.4. Kick-off</a></li>
-<li><a href="#human-interference">1.5. Human interference</a></li>
-<li><a href="#ball-movement">1.6. Ball movement</a></li>
+<li><a href="#game-procedure-and-length-of-a-game">1.1. Game Procedure and Length of a Game</a></li>
+<li><a href="#pre-match-programming">1.2. Pre-Match Programming</a></li>
+<li><a href="#pre-match-meeting">1.3. Pre-Match Meeting</a></li>
+<li><a href="#kick-off">1.4. Kick-Off</a></li>
+<li><a href="#human-interference">1.5. Human Interference</a></li>
+<li><a href="#ball-movement">1.6. Ball Movement</a></li>
 <li><a href="#scoring">1.7. Scoring</a></li>
 <li><a href="#inside-penalty-area">1.8. Inside the Penalty Area</a></li>
-<li><a href="#lack-of-progress">1.9. Lack of progress</a></li>
-<li><a href="#out-of-bounds">1.10. Out of bounds</a></li>
-<li><a href="#damaged-robots">1.11. Damaged robots</a></li>
+<li><a href="#lack-of-progress">1.9. Lack of Progress</a></li>
+<li><a href="#out-of-bounds">1.10. Out of Bounds</a></li>
+<li><a href="#damaged-robots">1.11. Damaged Robots</a></li>
 <li><a href="#interruption-of-game-ref-interruption">1.12. Interruption of Game</a></li>
 </ul>
 </li>
@@ -470,7 +470,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </li>
 <li><a href="#robots">3. ROBOTS</a>
 <ul class="sectlevel2">
-<li><a href="#number-of-robots-substitution">3.1. Number of robots / substitution</a></li>
+<li><a href="#number-of-robots-substitution">3.1. Number of Robots / Substitution</a></li>
 <li><a href="#robots-control">3.2. Robot Control</a></li>
 <li><a href="#robots-interference">3.3. Interference</a></li>
 <li><a href="#communication">3.4. Communication</a></li>
@@ -495,9 +495,17 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#conflict-resolution">6. CONFLICT RESOLUTION</a>
 <ul class="sectlevel2">
 <li><a href="#referee-and-referee-assistant">6.1. Artificial Referee</a></li>
-<li><a href="#rule-clarification">6.2. Rule clarification</a></li>
-<li><a href="#rule-modification">6.3. Rule modification</a></li>
-<li><a href="#regulatory-statutes">6.4. Regulatory statutes</a></li>
+<li><a href="#rule-clarification">6.2. Rule Clarification</a></li>
+<li><a href="#rule-modification">6.3. Rule Modification</a></li>
+<li><a href="#regulatory-statutes">6.4. Regulatory Statutes</a></li>
+</ul>
+</li>
+<li><a href="#international-competition">7. INTERNATIONAL COMPETITION</a>
+<ul class="sectlevel2">
+<li><a href="#international-competition-team">7.1. Team</a></li>
+<li><a href="#interviews">7.2. Interviews</a></li>
+<li><a href="#poster-sessions">7.3. Poster Sessions</a></li>
+<li><a href="#technical-challenges">7.4. Technical Challenges</a></li>
 </ul>
 </li>
 </ul>
@@ -509,7 +517,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 <script src="https://hypothes.is/embed.js" async></script>
 <div class="paragraph">
-<p>These are the official Soccer Simulation rules for <strong>the RoboCupJunior Simulation Demo Competition in Feb 2021</strong>.
+<p>These are the official Soccer Simulation rules for <strong>the RoboCupJunior 2021</strong>.
 They are released by the RoboCupJunior Soccer Technical Committee (TC).
 The English version of these rules has priority over any translations.</p>
 </div>
@@ -519,6 +527,10 @@ The English version of these rules has priority over any translations.</p>
 and requirements for the international competition. Each team is responsible
 for verifying the latest version of the rules prior to competition.
 <sup class="footnote">[<a id="_footnoteref_1" class="footnote" href="#_footnotedef_1" title="View footnote.">1</a>]</sup></p>
+</div>
+<div class="paragraph">
+<p>Instructions on the Webots environment, on how to program controllers, as well as demos
+and tutorials can be found online at <a href="https://robocupjuniortc.github.io/rcj-soccer-sim/" class="bare">https://robocupjuniortc.github.io/rcj-soccer-sim/</a>.</p>
 </div>
 <div class="imageblock">
 <div class="content">
@@ -533,8 +545,8 @@ for verifying the latest version of the rules prior to competition.
 <i class="fa icon-note" title="Note"></i>
 </td>
 <td class="content">
-This is the first version of these rules for the Simulation Demo Competition in Feb 2021.
-The TC may change some aspects prior or during the course of the tournament if evidence demands so.
+This is a draft version of the rules for the league RCJ Soccer Simulation 2021.
+The final version of the rules may differ slightly from this draft, but only in minor aspects.
 </td>
 </tr>
 </table>
@@ -559,7 +571,7 @@ RoboCupJunior Soccer Leagues. There is no need to meet in person for the RoboCup
 Simulation challenge. The Soccer Simulation League was created solely for the
 2021 season. There is no guarantee for continuing it throughout later seasons.
 However, depending on the results and feedback from the community, there might be
-future RoboCupJunior Soccer Simulation challenges.</em></p>
+future RoboCupJunior Soccer Simulation challenges and leagues.</em></p>
 </div>
 <h3 id="_programming_has_to_be_performed_exclusively_by_the_students" class="discrete">Programming has to be performed exclusively by the students</h3>
 <div class="paragraph">
@@ -579,38 +591,39 @@ registering your team.</p>
 <h2 id="gameplay"><a class="anchor" href="#gameplay"></a><a class="link" href="#gameplay">1. GAMEPLAY</a></h2>
 <div class="sectionbody">
 <div class="sect2">
-<h3 id="game-procedure-and-length-of-a-game"><a class="anchor" href="#game-procedure-and-length-of-a-game"></a><a class="link" href="#game-procedure-and-length-of-a-game">1.1. Game procedure and length of a game</a></h3>
+<h3 id="game-procedure-and-length-of-a-game"><a class="anchor" href="#game-procedure-and-length-of-a-game"></a><a class="link" href="#game-procedure-and-length-of-a-game">1.1. Game Procedure and Length of a Game</a></h3>
 <div class="paragraph">
 <p>RCJ Soccer games consist of two teams of robots playing soccer against each
-other. Each team has <a id="addition-1"></a>
-<span class="red"><strong>three autonomous robots</strong></span>. The game will consist of two
+other. Each team has three autonomous robots. The game will consist of two
 halves. The duration of each half is 10 minutes.</p>
 </div>
-<div id="addition-2" class="paragraph">
-<p><span class="red"><strong>The game will be timed by an artificial referee program. The referee will make all the decisions during the game automatically, including the placement of the ball and of robots. There will be no discussion on decisions the artificial referee took.</strong></span></p>
-</div>
 <div class="paragraph">
-<p>The final game score will be trimmed so that there is
-at most 10 goal difference between the losing and the winning team.</p>
+<p>The game will be timed by an artificial referee program. The referee will make
+all the decisions during the game automatically, including the placement of
+the ball and of robots. There will be no discussion on decisions the artificial
+referee took.</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="pre-match-programming"><a class="anchor" href="#pre-match-programming"></a><a class="link" href="#pre-match-programming">1.2. Pre-match programming</a></h3>
-<div id="addition-3" class="paragraph">
-<p><span class="red"><strong>Teams will send their code to the organization committee (OC) before the competition. The matches will then be conducted by the OC, which will run the code of the teams against each other. The matches will either be pre-recorded, or streamed live via an online streaming service.</strong></span></p>
+<h3 id="pre-match-programming"><a class="anchor" href="#pre-match-programming"></a><a class="link" href="#pre-match-programming">1.2. Pre-Match Programming</a></h3>
+<div class="paragraph">
+<p>Teams will send their code to the organization committee (OC) before the competition.
+The matches will then be conducted by the OC, which will run the code of the teams
+against each other. The matches will either be pre-recorded, or streamed live
+via an online streaming service.</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="pre-match-meeting"><a class="anchor" href="#pre-match-meeting"></a><a class="link" href="#pre-match-meeting">1.3. Pre-match meeting</a></h3>
+<h3 id="pre-match-meeting"><a class="anchor" href="#pre-match-meeting"></a><a class="link" href="#pre-match-meeting">1.3. Pre-Match Meeting</a></h3>
 <div class="paragraph">
-<p>At the start of the first half of the game, <a id="addition-4"></a>
-<span class="red"><strong>the artificial referee will choose the team kicking off at random, as well as the goal they will kick towards.</strong></span> After the first half, teams switch sides.
+<p>At the start of the first half of the game, the artificial referee will choose the team
+kicking off at random, as well as the goal they will kick towards. After the first half, teams switch sides.
 The team not kicking off in the first half of the game will kick off to begin
 the second half of the game.</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="kick-off"><a class="anchor" href="#kick-off"></a><a class="link" href="#kick-off">1.4. Kick-off</a></h3>
+<h3 id="kick-off"><a class="anchor" href="#kick-off"></a><a class="link" href="#kick-off">1.4. Kick-Off</a></h3>
 <div class="paragraph">
 <p>Each half of the game begins with a kick-off. All robots will be positioned by the artificial referee on
 their own side of the field and halted. The ball is positioned
@@ -621,30 +634,32 @@ kicking off will be outside of the center circle.</p>
 <p>On the artificial referee&#8217;s command, all robots will be started immediately.</p>
 </div>
 <div class="sect3">
-<h4 id="neutral-kickoff"><a class="anchor" href="#neutral-kickoff"></a><a class="link" href="#neutral-kickoff">1.4.1. Neutral kick-off</a></h4>
+<h4 id="neutral-kickoff"><a class="anchor" href="#neutral-kickoff"></a><a class="link" href="#neutral-kickoff">1.4.1. Neutral Kick-Off</a></h4>
 <div class="paragraph">
-<p>A neutral kick-off is the same as the one described in <a href="#kick-off">Rule 1.4, &#8220;Kick-off&#8221;</a> with a
-small change: all robots need must be placed outside of the center circle.</p>
+<p>A neutral kick-off is the same as the one described in <a href="#kick-off">Rule 1.4, &#8220;Kick-Off&#8221;</a> with a
+small change: all robots must be placed outside of the center circle.</p>
 </div>
 </div>
 </div>
 <div class="sect2">
-<h3 id="human-interference"><a class="anchor" href="#human-interference"></a><a class="link" href="#human-interference">1.5. Human interference</a></h3>
-<div id="addition-5" class="paragraph">
-<p><span class="red"><strong>Except for starting or stopping the simulation, human interference during the simulated matches is not permitted, neither by teams nor by the OC. All decisions and actions are taken by the robots' programs and the artificial referee autonomously.</strong></span></p>
+<h3 id="human-interference"><a class="anchor" href="#human-interference"></a><a class="link" href="#human-interference">1.5. Human Interference</a></h3>
+<div class="paragraph">
+<p>Except for starting or stopping the simulation, human interference during the
+simulated matches is not permitted, neither by teams nor by the OC.
+All decisions and actions are taken by the robots' programs
+and the artificial referee autonomously.</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="ball-movement"><a class="anchor" href="#ball-movement"></a><a class="link" href="#ball-movement">1.6. Ball movement</a></h3>
-<div id="addition-6" class="paragraph">
-<p><span class="red"><strong>A robot cannot hold the ball.</strong></span></p>
+<h3 id="ball-movement"><a class="anchor" href="#ball-movement"></a><a class="link" href="#ball-movement">1.6. Ball Movement</a></h3>
+<div class="paragraph">
+<p>A robot cannot hold the ball.</p>
 </div>
 </div>
 <div class="sect2">
 <h3 id="scoring"><a class="anchor" href="#scoring"></a><a class="link" href="#scoring">1.7. Scoring</a></h3>
 <div class="paragraph">
-<p>The artificial referee will consider a goal as being scored as soon as the ball <a id="addition-7"></a>
-<span class="red"><strong>crosses the goal line.</strong></span>.</p>
+<p>The artificial referee will consider a goal as being scored as soon as the ball crosses the goal line.</p>
 </div>
 <div class="paragraph">
 <p>Goals scored either by an attacking or defending robot have the same end
@@ -654,15 +669,19 @@ game will be restarted with a kick-off from the team who was scored against.</p>
 </div>
 <div class="sect2">
 <h3 id="inside-penalty-area"><a class="anchor" href="#inside-penalty-area"></a><a class="link" href="#inside-penalty-area">1.8. Inside the Penalty Area</a></h3>
-<div id="addition-8" class="paragraph">
-<p><span class="red"><strong>No robots are supposed to be inside any penalty area for more than 15 seconds. After this time, they will be re-spawned on the furthest unoccupied neutral spot facing sideways. For this rule to apply, a robot must be inside the penalty area with its center of mass.</strong></span></p>
+<div class="paragraph">
+<p>No robots are supposed to be inside any penalty area for more than 15 seconds.
+After this time, they will be re-spawned on the furthest unoccupied neutral spot
+facing sideways. For this rule to apply, a robot must be inside the penalty area with its center
+of mass.</p>
 </div>
-<div id="addition-9" class="paragraph">
-<p><span class="red"><strong>For the timer to be reset, the robots must be outside the penalty area for more than 2 seconds.</strong></span></p>
+<div class="paragraph">
+<p>For the timer to be reset, the robots must be outside the penalty area for
+more than 2 seconds.</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="lack-of-progress"><a class="anchor" href="#lack-of-progress"></a><a class="link" href="#lack-of-progress">1.9. Lack of progress</a></h3>
+<h3 id="lack-of-progress"><a class="anchor" href="#lack-of-progress"></a><a class="link" href="#lack-of-progress">1.9. Lack of Progress</a></h3>
 <div class="paragraph">
 <p>Lack of progress occurs if there is no progress in the gameplay for a
 reasonable period of time.  Typical
@@ -670,23 +689,29 @@ lack of progress situations are when the ball is stuck between robots, when
 there is no change in ball and robot’s positions, or when the ball is beyond
 detection or reach capability of all robots on the field.</p>
 </div>
-<div id="addition-10" class="paragraph">
-<p><span class="red"><strong>If no significant ball movement occurs for 10 seconds</strong></span>, the artificial referee will call "lack of progress" and
-will move the ball to the nearest unoccupied neutral spot. If this does not
+<div class="paragraph">
+<p>If no significant ball movement occurs for 10 seconds, the artificial referee will call "lack of progress" and
+will move the ball to <a id="addition-1"></a>
+<span class="red"><strong>a random unoccupied neutral spot.</strong></span> If this does not
 solve the lack of progress, the referee can move the ball to a different
 neutral spot.</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="out-of-bounds"><a class="anchor" href="#out-of-bounds"></a><a class="link" href="#out-of-bounds">1.10. Out of bounds</a></h3>
-<div id="addition-11" class="paragraph">
-<p><span class="red"><strong>There is no "Out of Bounds" rule.</strong></span></p>
+<h3 id="out-of-bounds"><a class="anchor" href="#out-of-bounds"></a><a class="link" href="#out-of-bounds">1.10. Out of Bounds</a></h3>
+<div class="paragraph">
+<p>There is no "Out of Bounds" rule.</p>
+</div>
+<div id="addition-2" class="paragraph">
+<p><span class="red"><strong>If the ball or any robot accidentally leaves the field of play, it will be returned into play immediately, and placed on the field according to the rules of <a href="#lack-of-progress">Rule 1.9, &#8220;Lack of Progress&#8221;</a>.</strong></span></p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="damaged-robots"><a class="anchor" href="#damaged-robots"></a><a class="link" href="#damaged-robots">1.11. Damaged robots</a></h3>
-<div id="addition-12" class="paragraph">
-<p><span class="red"><strong>Sometimes robots in the simulation will tip or fall over. In any case when a robot does not move for 15 seconds, the artificial referee will re-spawn it onto the nearest unoccupied neutral spot.</strong></span></p>
+<h3 id="damaged-robots"><a class="anchor" href="#damaged-robots"></a><a class="link" href="#damaged-robots">1.11. Damaged Robots</a></h3>
+<div class="paragraph">
+<p>Sometimes robots in the simulation will tip or fall over. In any case when
+a robot does not move for 15 seconds, the artificial referee will re-spawn it
+onto the nearest unoccupied neutral spot.</p>
 </div>
 <div class="paragraph">
 <p>A robot that is respawned more than 3 times in a row according to this rule without moving
@@ -710,15 +735,13 @@ facing sideways.</p>
 <div class="sect2">
 <h3 id="team-regulations"><a class="anchor" href="#team-regulations"></a><a class="link" href="#team-regulations">2.1. Regulations</a></h3>
 <div class="paragraph">
-<p>A team must have <a id="addition-13"></a>
-<span class="red"><strong>two, three or four members</strong></span> to form a RoboCupJunior team to
+<p>A team must have two, three or four members to form a RoboCupJunior team to
 participate in the International event. A team member(s) and/or program(s) cannot
 be shared between teams.</p>
 </div>
 <div class="paragraph">
 <p>Each team must have a <strong>captain</strong>. The captain is the person responsible
-for communication with <a id="addition-14"></a>
-<span class="red"><strong>the OC</strong></span>. The team captain should be in a position
+for communication with the OC. The team captain should be in a position
 to answer all of the OC&#8217;s requests and questions. The team can replace its captain
 during the competition.</p>
 </div>
@@ -735,10 +758,9 @@ during the competition.</p>
 <h2 id="robots"><a class="anchor" href="#robots"></a><a class="link" href="#robots">3. ROBOTS</a></h2>
 <div class="sectionbody">
 <div class="sect2">
-<h3 id="number-of-robots-substitution"><a class="anchor" href="#number-of-robots-substitution"></a><a class="link" href="#number-of-robots-substitution">3.1. Number of robots / substitution</a></h3>
+<h3 id="number-of-robots-substitution"><a class="anchor" href="#number-of-robots-substitution"></a><a class="link" href="#number-of-robots-substitution">3.1. Number of Robots / Substitution</a></h3>
 <div class="paragraph">
-<p>Each team must have <a id="addition-15"></a>
-<span class="red"><strong>exactly three programs</strong></span> for the full tournament.
+<p>Each team must have exactly three programs for the full tournament.
 <sup class="footnote">[<a id="_footnoteref_2" class="footnote" href="#_footnotedef_2" title="View footnote.">2</a>]</sup>
 The substitution of  programs during the competition within the team or
 with other teams is forbidden.</p>
@@ -746,14 +768,22 @@ with other teams is forbidden.</p>
 </div>
 <div class="sect2">
 <h3 id="robots-control"><a class="anchor" href="#robots-control"></a><a class="link" href="#robots-control">3.2. Robot Control</a></h3>
-<div id="addition-16" class="paragraph">
-<p><span class="red"><strong>The Teams will write a controller program to move the robots during the simulation.  The simulated robots have two wheels to control its movement (one on each side - differential-drive).  The only aspect of the simulation that the program is allowed to act on is the speed of the wheels of the robot that it is controlling. The program will be pre-written by the teams and used for the whole competition. Substitution of the program during the  competition or during a match is not allowed.</strong></span></p>
+<div class="paragraph">
+<p>The Teams will write a controller program to move the robots during the simulation.
+The simulated robots have two wheels to control its movement (one on each side - differential-drive).
+The only aspect of the simulation that the program is allowed to act on is the speed of
+the wheels of the robot that it is controlling. The program will be pre-written by
+the teams and used for the whole competition. Substitution of the program during the
+competition or during a match is not allowed.</p>
 </div>
 </div>
 <div class="sect2">
 <h3 id="robots-interference"><a class="anchor" href="#robots-interference"></a><a class="link" href="#robots-interference">3.3. Interference</a></h3>
-<div id="addition-17" class="paragraph">
-<p><span class="red"><strong>Teams are not allowed to interfere with the simulation in any unofficial way. Teams may be penalized or disqualified by the OC for any attempt to influence or work-around the artificicial referee, other team&#8217;s robots, or the simulation world&#8217;s constraints.</strong></span></p>
+<div class="paragraph">
+<p>Teams are not allowed to interfere with the simulation in any unofficial way.
+Teams may be penalized or disqualified by the OC for any attempt to influence or
+work-around the artificicial referee, other team&#8217;s robots, or the
+simulation world&#8217;s constraints.</p>
 </div>
 </div>
 <div class="sect2">
@@ -768,11 +798,14 @@ as long as they abide by rule <a href="#robots-interference">Rule 3.3, &#8220;In
 </div>
 <div class="sect2">
 <h3 id="agility"><a class="anchor" href="#agility"></a><a class="link" href="#agility">3.5. Agility</a></h3>
-<div id="addition-18" class="paragraph">
-<p><span class="red"><strong>The construction of the robots is pre-defined and part of the simulation world. The robots will have a cubic form, two motorized wheels and no kicker.</strong></span></p>
+<div class="paragraph">
+<p>The construction of the robots is pre-defined and part of the simulation
+world. The robots will have a cubic form, two motorized wheels and no kicker.</p>
 </div>
-<div id="addition-19" class="paragraph">
-<p><span class="red"><strong>Robots may be programmed with a controller script. They may turn in any direction, as well as drive forward and backward anywhere on the field. There is a maximum speed defined by the simulation. There is no mandatory behaviour required for the programs.</strong></span></p>
+<div class="paragraph">
+<p>Robots may be programmed with a controller script. They may turn in any direction, as
+well as drive forward and backward anywhere on the field. There is a maximum speed defined
+by the simulation. There is no mandatory behaviour required for the programs.</p>
 </div>
 </div>
 </div>
@@ -780,8 +813,10 @@ as long as they abide by rule <a href="#robots-interference">Rule 3.3, &#8220;In
 <div class="sect1">
 <h2 id="field"><a class="anchor" href="#field"></a><a class="link" href="#field">4. FIELD</a></h2>
 <div class="sectionbody">
-<div id="addition-20" class="paragraph">
-<p><span class="red"><strong>The playing field will be provided by the OC as a digital Webots world, along with a small tutorial on how to place and move the robots during the game, as well as measure the robot and ball positions.</strong></span></p>
+<div class="paragraph">
+<p>The playing field will be provided by the OC as a digital Webots world, along with
+a small tutorial on how to place and move the robots during the game, as well as
+measure the robot and ball positions.</p>
 </div>
 <div class="imageblock">
 <div class="content">
@@ -791,8 +826,8 @@ as long as they abide by rule <a href="#robots-interference">Rule 3.3, &#8220;In
 </div>
 <div class="sect2">
 <h3 id="neutral-spots"><a class="anchor" href="#neutral-spots"></a><a class="link" href="#neutral-spots">4.1. Neutral Spots</a></h3>
-<div id="addition-21" class="paragraph">
-<p><span class="red"><strong>There are 7 neutral spots. They are defined in simulation units as follows:</strong></span></p>
+<div class="paragraph">
+<p>There are 7 neutral spots. They are defined in simulation units as follows:</p>
 </div>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
@@ -905,11 +940,13 @@ translators) are not allowed to work on the teams' programs.</p>
 shared among the RoboCup and RoboCupJunior participants after the tournament
 has been a part of world RoboCup competitions.</p>
 </div>
-<div id="addition-22" class="paragraph">
-<p><span class="red"><strong>All the code must be shared with other participants and made open-source after the tournament.</strong></span></p>
+<div class="paragraph">
+<p>All the code must be shared with other participants and made open-source after
+the tournament.</p>
 </div>
-<div id="addition-23" class="paragraph">
-<p><span class="red"><strong>Also, if you find any bugs within the simulation world or the artificial referee (except for the Webots logo), please let us know.</strong></span></p>
+<div class="paragraph">
+<p>Also, if you find any bugs within the simulation world or the
+artificial referee (except for the Webots logo), please let us know.</p>
 </div>
 </div>
 <div class="sect2">
@@ -943,8 +980,9 @@ without a warning by a red card.</p>
 <div class="sectionbody">
 <div class="sect2">
 <h3 id="referee-and-referee-assistant"><a class="anchor" href="#referee-and-referee-assistant"></a><a class="link" href="#referee-and-referee-assistant">6.1. Artificial Referee</a></h3>
-<div id="addition-24" class="paragraph">
-<p><span class="red"><strong>During a match, the artificial referee is a program in charge of making decisions with regards to the game and according to these rules.</strong></span></p>
+<div class="paragraph">
+<p>During a match, the artificial referee is a program in charge of making decisions
+with regards to the game and according to these rules.</p>
 </div>
 <div class="paragraph">
 <p>During gameplay, the decisions made by the artificial referee are final.</p>
@@ -954,14 +992,14 @@ without a warning by a red card.</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="rule-clarification"><a class="anchor" href="#rule-clarification"></a><a class="link" href="#rule-clarification">6.2. Rule clarification</a></h3>
+<h3 id="rule-clarification"><a class="anchor" href="#rule-clarification"></a><a class="link" href="#rule-clarification">6.2. Rule Clarification</a></h3>
 <div class="paragraph">
 <p>Rule clarification may be made by members of the RoboCupJunior Soccer Technical
 Committee and Organizing Committee, if necessary even during a tournament.</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="rule-modification"><a class="anchor" href="#rule-modification"></a><a class="link" href="#rule-modification">6.3. Rule modification</a></h3>
+<h3 id="rule-modification"><a class="anchor" href="#rule-modification"></a><a class="link" href="#rule-modification">6.3. Rule Modification</a></h3>
 <div class="paragraph">
 <p>If special circumstances, such as unforeseen problems or capabilities of a
 robot occur, rules may be modified by the RoboCupJunior Soccer Organizing
@@ -970,12 +1008,85 @@ Organizing Committee members, if necessary even during a tournament.</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="regulatory-statutes"><a class="anchor" href="#regulatory-statutes"></a><a class="link" href="#regulatory-statutes">6.4. Regulatory statutes</a></h3>
+<h3 id="regulatory-statutes"><a class="anchor" href="#regulatory-statutes"></a><a class="link" href="#regulatory-statutes">6.4. Regulatory Statutes</a></h3>
 <div class="paragraph">
 <p>Each RoboCupJunior competition may have its own regulatory statutes to define
 the procedure of the tournament (for example the SuperTeam system, game modes,
 the inspection of programs, interviews, schedules, etc.). Regulatory statutes
 become a part of this rule.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="international-competition"><a class="anchor" href="#international-competition"></a><a class="link" href="#international-competition">7. INTERNATIONAL COMPETITION</a></h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="international-competition-team"><a class="anchor" href="#international-competition-team"></a><a class="link" href="#international-competition-team">7.1. Team</a></h3>
+<div class="paragraph">
+<p>Maximum team size is 4 members for Teams competing in the RoboCupJunior Soccer Simulation League 2021.</p>
+</div>
+<div class="paragraph">
+<p>Team members can participate independently of their participation in earlier RoboCupJunior Soccer Leagues.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="interviews"><a class="anchor" href="#interviews"></a><a class="link" href="#interviews">7.2. Interviews</a></h3>
+<div class="paragraph">
+<p>During the international competition, the Organizing Committee may arrange to
+interview teams during the event. The exact schedule will be published by the
+Organization Committee prior to the event.</p>
+</div>
+<div class="paragraph">
+<p>During an interview, at least one member from each team must be able to explain
+particularities about the team’s robots, especially with regards to its
+strategy and its programming. An interviewer may ask the team for a
+demonstration. The interviewer may also ask the team to write a simple program
+during the interview to verify that the team is able to program its robot.</p>
+</div>
+<div class="paragraph">
+<p>All teams are expected to be able to conduct the interview in English.  If this
+poses a problem, the team may ask for a translator to be present at the
+interview. If the OC is not able to provide a translator, the team is required
+to do so. During the interview, the team will be evaluated using so called
+Rubrics, which are published on the website mentioned in the beginning of these
+rules.</p>
+</div>
+<div class="paragraph">
+<p>The Technical Committee recommends the implementation of interviews in regional
+competitions as well, but this is not mandatory.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="poster-sessions"><a class="anchor" href="#poster-sessions"></a><a class="link" href="#poster-sessions">7.3. Poster Sessions</a></h3>
+<div class="paragraph">
+<p>During the international competition, the Organizing Committee may also arrange
+digital poster sessions for the teams to attend. The poster sessions will be held online.
+Details will be published prior to the competition.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="technical-challenges"><a class="anchor" href="#technical-challenges"></a><a class="link" href="#technical-challenges">7.4. Technical Challenges</a></h3>
+<div class="paragraph">
+<p>Inspired by the major leagues and the need for further technological
+advancement of the leagues, the Technical Committee has decided to conduct so
+called <strong>Technical Challenges</strong>.</p>
+</div>
+<div class="paragraph">
+<p>The idea of these challenges is to give the teams an opportunity to show off
+various abilities of their robots which may not get noticed during the regular
+games. Furthermore, the Technical Committee envisions these challenges to be a
+place for testing new ideas that may make it to the future rules, or otherwise
+shape the competition.</p>
+</div>
+<div class="paragraph">
+<p>Any RoboCupJunior Soccer team will be eligible to try to tackle these
+challenges. Unless otherwise stated, any robot taking part in these challenges
+needs to abide by these rules in order to successfully complete it.</p>
+</div>
+<div class="paragraph">
+<p>The technical challenges will be published prior to the competition, or
+during competition days.</p>
 </div>
 </div>
 </div>
@@ -992,7 +1103,7 @@ become a part of this rule.</p>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2021-01-04 22:51:31 UTC
+Last updated 2021-03-01 23:23:19 UTC
 </div>
 </div>
 </body>

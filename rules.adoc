@@ -26,8 +26,8 @@ https://junior.forum.robocup.org/ for OC (Organizational Committee) procedures
 and requirements for the international competition. Each team is responsible
 for verifying the latest version of the rules prior to competition.
 footnote:[The current version of these rules can be found at
-https://robocupjuniortc.github.io/soccer-rules-simulation/master/rules.html in HTML form
-and at https://robocupjuniortc.github.io/soccer-rules-simulation/master/rules.pdf in PDF
+https://robocupjuniortc.github.io/soccer-rules-simulation/rules.html in HTML form
+and at https://robocupjuniortc.github.io/soccer-rules-simulation/rules.pdf in PDF
 form.]
 
 Instructions on the Webots environment, on how to program controllers, as well as demos
@@ -36,8 +36,8 @@ and tutorials can be found online at https://robocupjuniortc.github.io/rcj-socce
 [title="Two teams of three robots in a simulated RoboCupJunior Soccer match."]
 image::media/soccer_sim.png[width=350]
 
-NOTE: This is a draft version of the rules for the league RCJ Soccer Simulation 2021.
-The final version of the rules may differ slightly from this draft, but only in minor aspects.
+NOTE: This is the final version of the rules for the RCJ Soccer Simulation League 2021.
+This version differs only slightly from the drafts published earlier this year.
 
 [discrete]
 == Preface

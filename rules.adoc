@@ -36,8 +36,8 @@ and tutorials can be found online at https://robocupjuniortc.github.io/rcj-socce
 [title="Two teams of three robots in a simulated RoboCupJunior Soccer match."]
 image::media/soccer_sim.png[width=350]
 
-NOTE: This is a draft version of the rules for the league RCJ Soccer Simulation 2021.
-The final version of the rules may differ slightly from this draft, but only in minor aspects.
+NOTE: This is the final version of the rules for the RCJ Soccer Simulation League 2021.
+This version differs only slightly from the drafts published earlier this year.
 
 [discrete]
 == Preface

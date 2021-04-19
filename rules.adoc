@@ -26,8 +26,8 @@ https://junior.forum.robocup.org/ for OC (Organizational Committee) procedures
 and requirements for the international competition. Each team is responsible
 for verifying the latest version of the rules prior to competition.
 footnote:[The current version of these rules can be found at
-https://robocupjuniortc.github.io/soccer-rules-simulation/master/rules.html in HTML form
-and at https://robocupjuniortc.github.io/soccer-rules-simulation/master/rules.pdf in PDF
+https://robocupjuniortc.github.io/soccer-rules-simulation/rules.html in HTML form
+and at https://robocupjuniortc.github.io/soccer-rules-simulation/rules.pdf in PDF
 form.]
 
 Instructions on the Webots environment, on how to program controllers, as well as demos

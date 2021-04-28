@@ -36,7 +36,7 @@ and tutorials can be found online at https://robocupjuniortc.github.io/rcj-socce
 [title="Two teams of three robots in a simulated RoboCupJunior Soccer match."]
 image::media/soccer_sim.png[width=350]
 
-NOTE: This is the final version of the rules for the RCJ Soccer Simulation League 2021.
+NOTE: This is the final version of the rules for the RCJ Soccer Simulation Challenge 2021.
 This version differs only slightly from the drafts published earlier this year.
 
 [discrete]
@@ -53,9 +53,9 @@ whole by sharing their discoveries with other participants and by engaging in go
 sportsmanship, regardless of culture, age or result in the competition.
 *All are expected to compete, learn, have fun, and grow.*
 
-_The RoboCupJunior Soccer Simulation League is a special addition to the existing
+_The RoboCupJunior Soccer Simulation Challenge is a special addition to the existing
 RoboCupJunior Soccer Leagues. There is no need to meet in person for the RoboCupJunior
-Simulation challenge. The Soccer Simulation League was created solely for the
+Simulation Challenge. It was created primarily for the
 2021 season. There is no guarantee for continuing it throughout later seasons.
 However, depending on the results and feedback from the community, there might be
 future RoboCupJunior Soccer Simulation challenges and leagues._
@@ -410,7 +410,7 @@ become a part of this rule.
 [[international-competition-team]]
 === Team
 
-Maximum team size is 4 members for Teams competing in the RoboCupJunior Soccer Simulation League 2021.
+The maximum team size is 4 members for teams competing in the RoboCupJunior Soccer Simulation Challenge 2021.
 
 Team members can participate independently of their participation in earlier RoboCupJunior Soccer Leagues.
 

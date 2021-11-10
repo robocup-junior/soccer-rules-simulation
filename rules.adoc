@@ -1,4 +1,4 @@
-= RoboCupJunior Soccer Simulation Rules January 2021
+= RoboCupJunior Soccer Simulation Demo Competition 2022
 {docdate}
 :toc: left
 :sectanchors:
@@ -17,7 +17,7 @@ endif::basebackend-html[]
 :icons: font
 :numbered:
 
-These are the official Soccer Simulation rules for *the RoboCupJunior 2021*.
+These are the official rules for the *RoboCupJunior Soccer Simulation Demo Competition 2022*.
 They are released by the RoboCupJunior Soccer Technical Committee (TC).
 The English version of these rules has priority over any translations.
 
@@ -36,8 +36,12 @@ and tutorials can be found online at https://robocupjuniortc.github.io/rcj-socce
 [title="Two teams of three robots in a simulated RoboCupJunior Soccer match."]
 image::media/soccer_sim.png[width=350]
 
-NOTE: This is the final version of the rules for the RCJ Soccer Simulation Challenge 2021.
-This version differs only slightly from the drafts published earlier this year.
+NOTE: This set of rules is to be used for the RCJ Soccer Simulation Demo Competition 2022 only.
+It may differ from the actual set of rules for later competitions throughout this year.
+
+NOTE: The Webots world has changed since the last Simulation Challenge in 2021.
+Please make sure to pull the latest release of the Webots world.
+
 
 [discrete]
 == Preface
@@ -56,8 +60,9 @@ sportsmanship, regardless of culture, age or result in the competition.
 _The RoboCupJunior Soccer Simulation Challenge is a special addition to the existing
 RoboCupJunior Soccer Leagues. There is no need to meet in person for the RoboCupJunior
 Simulation Challenge. It was created primarily for the
-2021 season. There is no guarantee for continuing it throughout later seasons.
-However, depending on the results and feedback from the community, there might be
+2021 season. Even though there is no guarantee for continuing it into the future,
+we as TC would like to see what else we can create from here.
+Depending on the results and feedback from this demo competition, there might be
 future RoboCupJunior Soccer Simulation challenges and leagues._
 
 [discrete]
@@ -279,8 +284,11 @@ The playing field will be provided by the OC as a digital Webots world, along wi
 a small tutorial on how to place and move the robots during the game, as well as
 measure the robot and ball positions.
 
+{++Note that the Webots world has changed since the last Simulation Challenge in 2021.
+Please make sure to pull the latest release of the Webots world.++}
+
 [title="An empty field with its reference frame in the center: X (red) and Y (blue)."]
-image::media/soccer_sim_field.png[image,height=170]
+image::media/soccer_sim_field.png[image,height=125]
 
 
 [[neutral-spots]]
@@ -410,7 +418,7 @@ become a part of this rule.
 [[international-competition-team]]
 === Team
 
-The maximum team size is 4 members for teams competing in the RoboCupJunior Soccer Simulation Challenge 2021.
+The maximum team size is 4 members for teams competing in the RoboCupJunior Soccer Simulation Demo Competition 2022.
 
 Team members can participate independently of their participation in earlier RoboCupJunior Soccer Leagues.
 

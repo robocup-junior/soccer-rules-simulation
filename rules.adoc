@@ -40,7 +40,8 @@ NOTE: This set of rules is to be used for the RCJ Soccer Simulation Demo Competi
 It may differ from the actual set of rules for later competitions throughout this year.
 
 NOTE: The Webots world has changed since the last Simulation Challenge in 2021.
-Please make sure to pull the latest release of the Webots world.
+Please make sure to pull the latest release of the Webots world from
+https://github.com/RoboCupJuniorTC/rcj-soccer-sim
 
 
 [discrete]
@@ -300,14 +301,16 @@ There are 7 neutral spots. They are defined in simulation units as follows:
 |===
 | *Nr.* | *Name* | *X-Coordinate* | *Y-Coordinate*
 | 1 | Central Point | 0 | 0
-| 2 | Blue Side | 0.2 | 0
-| 3 | Blue Side | 0.3 | 0.3
-| 4 | Blue Side | 0.3 | -0.3
-| 5 | Yellow Side | -0.2 | 0
-| 6 | Yellow Side | -0.3 | 0.3
+| 2 | Blue Side |  0   | 0.2
+| 3 | Blue Side |  0.3 | 0.3
+| 4 | Blue Side | -0.3 | 0.3
+| 5 | Yellow Side |  0   | -0.2
+| 6 | Yellow Side |  0.3 | -0.3
 | 7 | Yellow Side | -0.3 | -0.3
 |===
 
+{++Note that the coordinates have changed since the last Simulation Challenge
+in 2021. Please make sure to pull the latest release of the Webots world..++}
 
 [title="The ball and the 6 robots on the 7 neutral spots as defined in <<neutral-spots>>"]
 image::media/soccer_sim_field_neutral.png[image,height=200]
